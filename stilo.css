@@ -1,21 +1,37 @@
 @charset "UTF-8";
 
-body{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
     height: 100vh;
     background-color: black;
     background-image: url('imagem/wallpaper002.jpg');
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-main{
-    width: 400px;
-    background-color: white;
-    margin: auto;
-    padding: 10px;
+main {
+    background-color: transparent;
     text-align: justify;
     margin-top: 10px;
-    border: 1px solid black;
+    padding: 20px;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+}
+
+div {
+    margin: auto;
+    max-width: 600px;
+    background-color: white;
     border-radius: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 50px;
 }
